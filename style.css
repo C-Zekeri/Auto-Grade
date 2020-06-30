@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0.7em;
+}
+
+main {
+    height: 35vw;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.hide {
+    display: none;
+}
+
+.input_course, .input_course-units, .input_score {
+    margin-right: 0.7em;
+}
+
+.output_course, .output_grade, .output_gradepoints {
+    margin-right: 0.7em;
+}
+
+#submit-button {
+    margin: 0.7em 0;
+}
+
+p.gpa {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+}
